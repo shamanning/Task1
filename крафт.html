@@ -1,0 +1,31 @@
+<!DOCTYPE=html>
+<html>
+<head>
+<meta charset= "UTF-8-BOM">
+<title>Craft</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="list">
+	<h5 id="h5">Recipe</h5>
+	<div id="recipe"></div>
+	<div><p>Add Recipe</p><input type="text" id="addbook">
+	<button id="addButton0">Add</button></div>
+</div>
+<h4 id="h31">Bookshelf</h4>
+<div id="bookshelf">
+
+	<div id="bookshelf1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+	<div id="bookshelf2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+		<div> <p>Add Part:</p> 
+			<input type="text" id="addItem">
+		<button id="addButton">Add</button>
+					<span id="outputMessageItem"></span>
+		</div>
+<div id="boiler" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+<button id='craft'>craft</button>
+</div>
+<script src="drag.js"></script>
+<script src="addPart.js"></script>
+<script src="addRecipe.js"></script>
+</html>
